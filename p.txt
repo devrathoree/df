@@ -1,0 +1,45 @@
+vpc
+subnet /pubic/private
+cidr
+routable
+internet gate 
+netgatway
+region
+avaibiltiy zone
+
+
+ec2
+
+secuitry group
+network interface
+load balacncer
+target group
+lauch configer
+autosclaing
+elastic ip
+iam role n poloicy
+nacl
+
+elasti search
+radis
+kafka
+cloud fornt
+global exlator
+rds
+lambada
+cloud watch
+rabit mq
+sns
+route 53
+osted zone
+waf
+
+
+cloud formation.
+
+mogo db
+monitering service 
+postgras
+
+docker compose
+

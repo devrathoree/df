@@ -1,0 +1,50 @@
+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
+
+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
+
+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
+
+git clone https://devrathoree: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@github.com/devrathoree/sample_repo.git
+
+git clone https://github.com/devrathoree/sample_repo.git
+Username: devrathoree
+Password: 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
+
+
+sudo docker pull httpd  #apache2
+
+sudo aa-remove-unknown    #to remove give permsiion
+
+docker rmi -f $(docker images -a -q)
+
+sudo docker rm $(docker ps -qa)
+
+sudo docker stop   #to stop running command
+
+
+sudo docker exec -it a6591a1ed555 /bin/bash
+
+
+/usr/local/apache2/htdocs   #pwd
+
+-rw-r--r-- 1 501 staff 45 Jun 11  2007 index.html  #chown   ls -ll
+
+/usr/local/apache2 #conf file
+
+drwxr-xr-x 4 root root 4096 Mar  7 20:24 conf
+
+drwxr-xr-x 2 root root 4096 Mar  7 20:24 htdocs
+
+
+docker run -d -it \
+   --mount type=bind,source="$(pwd)"/master.html,target=/usr/local/apache2/htdocs,readonly \
+   alpine:latest
+   
+sudo docker run -d -it
+    -v "$(pwd)"/master.html:/usr/local/apache2/htdocs/master.html:ro \
+    alpine:latest   
+    
+
+sudo docker run -d -it -p 81:80 -v /home/dev/master.html:/usr/local/apache2/htdocs/index.html httpd:latest
+
+
