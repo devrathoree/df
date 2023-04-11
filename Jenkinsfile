@@ -4,7 +4,7 @@ pipeline {
        stage('Build Code') {
            steps {
                
-               sh 'python manage.py'
+               sh 'manage.py'
                   
            }
        }
