@@ -4,7 +4,7 @@ pipeline {
        stage('Build Code') {
            steps {
                script {
-               sh 'python manage.py runserver'
+               sh 'manage.py'
                }   
            }
        }
