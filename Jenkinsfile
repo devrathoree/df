@@ -1,7 +1,7 @@
 pipeline {
     agent {
         node {
-            label 'git'
+            label 'my-defined-label'
             customWorkspace '/home/dev/df'
         }
     }
