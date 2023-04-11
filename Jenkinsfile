@@ -1,9 +1,4 @@
 pipeline {
-    agent {
-        node {
-            customWorkspace '/home/dev/df'
-        }
-    }
     stages {
         stage('Checkout project') {
             steps {
