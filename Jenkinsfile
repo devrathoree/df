@@ -13,7 +13,7 @@ pipeline {
         stage('Installing packages') {
             steps {
                 script {
-                    /bin/bash/ -c 'python manage.py runserver'
+                    bin/ 'python manage.py runserver'
                 }
             }
         }
